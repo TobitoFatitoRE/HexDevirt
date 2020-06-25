@@ -6,16 +6,16 @@
 
     <ItemGroup>
       <Reference Include="AsmResolver, Version=4.0.0.0, Culture=neutral, PublicKeyToken=null">
-        <HintPath>..\AsmResolver.dll</HintPath>
+        <HintPath>..\Deps\AsmResolver.dll</HintPath>
       </Reference>
       <Reference Include="AsmResolver.DotNet, Version=4.0.0.0, Culture=neutral, PublicKeyToken=null">
-        <HintPath>..\AsmResolver.DotNet.dll</HintPath>
+        <HintPath>..\Deps\AsmResolver.DotNet.dll</HintPath>
       </Reference>
       <Reference Include="AsmResolver.PE, Version=4.0.0.0, Culture=neutral, PublicKeyToken=null">
-        <HintPath>..\AsmResolver.PE.dll</HintPath>
+        <HintPath>..\Deps\AsmResolver.PE.dll</HintPath>
       </Reference>
       <Reference Include="AsmResolver.PE.File, Version=4.0.0.0, Culture=neutral, PublicKeyToken=null">
-        <HintPath>..\AsmResolver.PE.File.dll</HintPath>
+        <HintPath>..\Deps\AsmResolver.PE.File.dll</HintPath>
       </Reference>
     </ItemGroup>
 
