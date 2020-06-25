@@ -22,11 +22,14 @@ namespace HexDevirt
 
             logger.ShowInfo(CurrentVersion);
 
-            var options = (Parsed<CommandLineOptions>) Parser.Default.ParseArguments<CommandLineOptions>(args)
+            var options2 =  Parser.Default.ParseArguments<CommandLineOptions>(args)
                 .WithParsed(o =>
                 {
                     if (o.Verbose) logger.Info("Verbose Output Enabled!");
                 });
+            if (options2.Tag == ParserResultType.NotParsed)
+                return;
+            var options = (Parsed<CommandLineOptions>) options2;
 
             var ctx = new DevirtualizationCtx(args[0], options.Value, logger);
             var devirt = new Devirtualizor(ctx);
