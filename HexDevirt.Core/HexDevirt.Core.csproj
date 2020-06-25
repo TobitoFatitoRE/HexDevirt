@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="AsmResolver, Version=4.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\AsmResolver.dll</HintPath>
+      </Reference>
+      <Reference Include="AsmResolver.DotNet, Version=4.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\AsmResolver.DotNet.dll</HintPath>
+      </Reference>
+      <Reference Include="AsmResolver.PE, Version=4.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\AsmResolver.PE.dll</HintPath>
+      </Reference>
+      <Reference Include="AsmResolver.PE.File, Version=4.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\AsmResolver.PE.File.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="CommandLineParser" Version="2.8.0" />
+    </ItemGroup>
+
+</Project>

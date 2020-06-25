@@ -1,0 +1,38 @@
+namespace HexDevirt.Core
+{
+    public enum vmOpCode
+    {
+        VmCall,
+        VmLdc,
+        VmArray,
+        VmLoc,
+        VmArg,
+        VmFld,
+        VmConv,
+        AClt,
+        ANeg,
+        ANot,
+        AAnd,
+        AShr,
+        AShl,
+        ARem,
+        ACeq,
+        AMul,
+        ANop,
+        ACgt,
+        AAdd,
+        ASub,
+        ARet,
+        AXor,
+        APop,
+        ALdlen,
+        ADup,
+        ADiv,
+        Ldtoken,
+        Brfalse,
+        Brtrue,
+        Br,
+        Box,
+        Newobj
+    }
+}
