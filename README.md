@@ -19,3 +19,7 @@ Dependencies
 Bugs
 ----
 - Variable type recovering might be buggy (causing stack-overflows) if the file is too big which can be disabled through options.
+
+Pic
+---
+<img src="https://i.imgur.com/QdKfWyz.png" alt="Kewl Pic"/>
