@@ -1,5 +1,5 @@
 # HexDevirt
-Devirtualization tool for HexDevirt
+Devirtualization tool for Hex-Virtualization
 
 Description:
 ------------
